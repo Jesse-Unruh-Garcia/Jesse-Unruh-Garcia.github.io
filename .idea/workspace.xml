@@ -5,8 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0702827d-960d-4876-9042-cde3a4447d9c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/myblog/home2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/01-22-06.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/01-23-06.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/01-24-06.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/01-25-06.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/01-26-06.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/01-27-06.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/01-28-06.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/01-29-06.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/01-30-06p1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/01-30-06p2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/01-30-06p3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/HallofMosses.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/goat.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/hall2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/hall3.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/hallofmoss.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/henry-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/henry-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/mgoat.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/share.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/silhoutte.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/snowshoehare.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/t2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/tower2.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myblog/_includes/head-custom.html" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/_includes/head-custom.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myblog/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/home.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,28 +62,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "JavaScript Debug.404.html.executor": "Run",
-    "JavaScript Debug.head.html.executor": "Run",
-    "JavaScript Debug.header.html.executor": "Run",
-    "JavaScript Debug.home.html.executor": "Run",
-    "JavaScript Debug.index.html.executor": "Run",
-    "JavaScript Debug.sidebar.html.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.404.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.head.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.header.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.home.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.sidebar.html.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/myblog" />
@@ -78,7 +103,9 @@
       <workItem from="1713207582463" duration="5868000" />
       <workItem from="1713289064714" duration="229000" />
       <workItem from="1713289310624" duration="2229000" />
-      <workItem from="1713371725086" duration="9435000" />
+      <workItem from="1713371725086" duration="10386000" />
+      <workItem from="1713813967684" duration="1909000" />
+      <workItem from="1714054063358" duration="6085000" />
     </task>
     <servers />
   </component>
