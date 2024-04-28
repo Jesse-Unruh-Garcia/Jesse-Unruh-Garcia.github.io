@@ -5,33 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0702827d-960d-4876-9042-cde3a4447d9c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/myblog/01-22-06.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myblog/01-23-06.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myblog/01-24-06.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myblog/01-25-06.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myblog/01-26-06.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myblog/01-27-06.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myblog/01-28-06.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myblog/01-29-06.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myblog/01-30-06p1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myblog/01-30-06p2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myblog/01-30-06p3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myblog/HallofMosses.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myblog/goat.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myblog/hall2.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myblog/hall3.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myblog/hallofmoss.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myblog/henry-1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myblog/henry-2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myblog/mgoat.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myblog/share.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myblog/silhoutte.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myblog/snowshoehare.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myblog/t2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myblog/tower2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/01-31-06.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/asshole.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/changedHare.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/flowers.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/hidinghare.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/map.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/mossplac.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/radiolog.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/snow.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/stower.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/yahoomail.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myblog/_includes/head-custom.html" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/_includes/head-custom.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myblog/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myblog/01-27-06.html" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/01-27-06.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myblog/01-28-06.html" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/01-28-06.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myblog/01-29-06.html" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/01-29-06.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myblog/01-30-06p1.html" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/01-30-06p1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myblog/01-30-06p2.html" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/01-30-06p2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myblog/01-30-06p3.html" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/01-30-06p3.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +96,8 @@
       <workItem from="1713289310624" duration="2229000" />
       <workItem from="1713371725086" duration="10386000" />
       <workItem from="1713813967684" duration="1909000" />
-      <workItem from="1714054063358" duration="6085000" />
+      <workItem from="1714054063358" duration="10598000" />
+      <workItem from="1714337776527" duration="4601000" />
     </task>
     <servers />
   </component>
