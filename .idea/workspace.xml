@@ -7,6 +7,21 @@
     <list default="true" id="0702827d-960d-4876-9042-cde3a4447d9c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myblog/01-22-06.html" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/01-22-06.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myblog/died.html" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/died.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myblog/evolve.html" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/evolve.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myblog/experiment.html" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/experiment.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myblog/goat.html" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/goat.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myblog/hares.html" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/hares.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myblog/heart.html" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/heart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myblog/henry-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/henry-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myblog/incident.html" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/incident.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myblog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myblog/life.html" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/life.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myblog/moss.html" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/moss.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myblog/stalker.html" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/stalker.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myblog/tower.html" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/tower.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myblog/whoami.html" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/whoami.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myblog/wish.html" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/wish.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +96,7 @@
       <workItem from="1713371725086" duration="10386000" />
       <workItem from="1713813967684" duration="1909000" />
       <workItem from="1714054063358" duration="10598000" />
-      <workItem from="1714337776527" duration="24994000" />
+      <workItem from="1714337776527" duration="27187000" />
     </task>
     <servers />
   </component>
