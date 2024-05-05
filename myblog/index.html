@@ -1,6 +1,77 @@
 <html lang="en" dir="ltr">
 <body>
 <html>
+<script type="text/javascript">
+    var blink_speed = 500; // every 1000 == 1 second, adjust to suit
+    var t = setInterval(function () {
+        var ele = document.getElementById('blink');
+        ele.style.visibility = (ele.style.visibility == 'hidden' ? '' : 'hidden');
+    }, blink_speed);
+    function myFunction()
+    {
+        var a=document.getElementById("search").value;
+
+        if (a=="henry")
+        {
+            document.getElementById("answer").innerText="Correct!";
+            location.href = "henry-2.html";
+        }
+        else if (a=="tower")
+        {
+            document.getElementById("answer").innerText="Correct!";
+            location.href = "tower.html";
+        }
+        else if (a=="moss")
+        {
+            document.getElementById("answer").innerText="Correct!";
+            location.href = "moss.html";
+        }
+        else if (a=="stalker")
+        {
+            document.getElementById("answer").innerText="Correct!";
+            location.href = "stalker.html";
+        }
+        else if (a=="died")
+        {
+            document.getElementById("answer").innerText="Correct!";
+            location.href = "died.html";
+        }
+        else if (a=="hares")
+        {
+            document.getElementById("answer").innerText="Correct!";
+            location.href = "hares.html";
+        }
+        else if (a=="goats")
+        {
+            document.getElementById("answer").innerText="Correct!";
+            location.href = "goat.html";
+        }
+        else if (a=="evolve")
+        {
+            document.getElementById("answer").innerText="Correct!";
+            location.href = "evolve.html";
+        }
+        else if (a=="life")
+        {
+            document.getElementById("answer").innerText="Correct!";
+            location.href = "life.html";
+        }
+        else if (a=="tutorial")
+        {
+            document.getElementById("answer").innerText="Correct!";
+            location.href = "jason-bennett.jpeg";
+        }
+        else if (a=="brad")
+        {
+            document.getElementById("answer").innerText="Correct!";
+            location.href = "yooooooo.jpg";
+        }
+        else
+        {
+            document.getElementById("answer").innerHTML="You seem lost. Look again.";
+        }
+    }
+</script>
 <head>
     <style>
         .left-container {
@@ -164,57 +235,20 @@
     <div id="logo">
         <img src="NPS-Transparent-Logo.png" alt="NPS" width="100" height="100">
         <strong height="30"> Olympic National Park </strong>
-        <a href="about.html">About</a>
-        <a class="active" href="01-22-06.html.html">Intro</a>
+        <a href="">About</a>
+        <a class="active" href="">Search</a>
     </div>
     <div class="sidenav">
-        <div class="title">General:
+        <div class="title">Key Artifacts:
             <br>
-            <a href="t1.html">North Tower</a>
+            <a href="01-22-06.html">Snow</a>
             <br>
-            <a href="t2.html">South Tower</a>
+            <a href="experiment.html">The Experiment</a>
             <br>
-        </div>
-        <div class="title">Flora:
+            <a href="incident.html">The Incident</a>
             <br>
-            <a href="hallofmoss.html">Hall of Moss</a>
+            <a href="whoami.html">Who Am I?</a>
             <br>
-        </div>
-
-        <div class="title">Fauna:
-            <br>
-            <a href="snowshoehare.html">Snowshow Hare</a>
-            <br>
-            <a href="mgoat.html">Mountain Goat</a>
-            <br>
-        </div>
-        <div class="title">Entries:
-            <br>
-            <a href="01-22-06.html">January 22rd, 2006</a>
-            <br>
-            <a href="01-23-06.html">January 23rd, 2006</a>
-            <br>
-            <a href="01-24-06.html">January 24th, 2006</a>
-            <br>
-            <a href="01-25-06.html">January 25th, 2006</a>
-            <br>
-            <a href="01-27-06.html">January 27th, 2006</a>
-            <br>
-            <a href="01-28-06.html">January 28th, 2006</a>
-            <br>
-            <a href="01-29-06.html">January 29th, 2006</a>
-            <br>
-            <a href="01-30-06p1.html">January 30th, 2006(1)</a>
-            <br>
-            <a href="01-30-06p2.html">January 30th, 2006(2)</a>
-            <br>
-            <a href="01-30-06p3.html">January 30th, 2006(3)</a>
-            <br>
-            <a href="01-31-06.html">January 31st, 2006</a>
-            <br>
-            <a href="02-01-06.html">February 1st, 2006</a>
-            <br>
-            <a href="02-02-06.html">February 2nd, 2006</a>
         </div>
     </div>
 </div>
@@ -225,31 +259,26 @@
     I write this now from the outside looking in. What started as an experiment, an expression, a form of therapy designed to recreate me, was usurped by something greater than it all. When I heard the news about Henry for the first time, I thought that was the strangest life could be. How very unclear it seems to me now, knowing what I know about death and the severity of it. But also of creating, and its suddenness.
 
     <p>
-    I’ve tried my best, I realize now. And all I have left are the artifacts for people to power through. Let’s hope I formatted them to the best of my abilities.
+        I’ve tried my best, I realize now. And all I have left are the artifacts for people to power through. Let’s hope I formatted them to the best of my abilities.
     </p>
 
-    <p>Explore the artifacts below:</p>
-
-    <div class="left-container">
-        <a href="%">
-            <img style='border:1px solid #000000' src="changedHare.jpg" width="200" height="200" />
-        </a>
-        <div class="centered">Wildlife</div>
-    </div>
-    <div class="right-container">
-        <a href="%">
-            <img style='border:1px solid #000000' src="changedHare.jpg" width="200" height="200" />
-        </a>
-        <div class="centered">About</div>
-    </div>
-    <div class="right-container">
-        <a href="%">
-            <img style='border:1px solid #000000' src="changedHare.jpg" width="200" height="200" />
-        </a>
-        <div class="centered">The Searchbar</div>
-    </div>
+    <p>Truth is, I can't help but hide parts of myself on this website. And so, I've chosen to make a game of it. Find a part of me and I'll find a part of you.</p>
+    <p>Certain words, those ones that mean the most to me, will beat like my heart. Flickering, popping in and out of the page.</p>
+    <p>Once you've found them, I ask for you to enter them into my search bar:</p>
+    <br>
+    <input id="search" type="text" />
+    <p id="answer"></p>
+    <button onclick="myFunction()">Search</button>
 
 
+</div>
+<div class="rightBox">
+    <div class="imageBox">
+        <p style="font-size: 30px; text-align:center;"><span id="blink">Tutorial</span></p>
+    </div>
+    <div class="imageTextBox">
+        An Example:<br> Look for these.
+    </div>
 </div>
 </body>
 </html>
