@@ -10,6 +10,7 @@
 
     function myFunction() {
         var a = document.getElementById("search").value;
+        a = a.toLowerCase();
 
         if (a == "henry") {
             document.getElementById("answer").innerText = "Correct!";
