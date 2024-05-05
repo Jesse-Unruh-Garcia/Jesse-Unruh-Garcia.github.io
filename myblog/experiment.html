@@ -1,0 +1,241 @@
+<html lang="en" dir="ltr">
+<body>
+<html>
+<script type="text/javascript">
+    var blink_speed = 500; // every 1000 == 1 second, adjust to suit
+    var t = setInterval(function () {
+        var ele = document.getElementById('blink');
+        ele.style.visibility = (ele.style.visibility == 'hidden' ? '' : 'hidden');
+    }, blink_speed);
+</script>
+<head>
+    <style>
+        .left-container {
+            position: relative;
+            float:left;
+            text-align: center;
+            color: white;
+            padding: 5px 5px;
+        }
+        .right-container {
+            position: relative;
+            float: left;
+            text-align: center;
+            color: white;
+            padding: 5px 5px;
+        }
+        .centered {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        body{
+            background-color: moccasin;
+        }
+        strong{
+            font-size: 55px;
+            text-align: center;
+            color: white
+        }
+        .topnav {
+            background-color: black;
+            overflow: hidden;
+            padding: 14px 16px;
+            outline: solid;
+            outline-color: #111111;
+        }
+
+        /* Style the links inside the navigation bar */
+        .topnav a {
+            float: right;
+            color: khaki;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 17px;
+        }
+
+        /* Change the color of links on hover */
+        .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        /* Add a color to the active/current link */
+        .topnav a.active {
+            background-color: #aa0000;
+            color: white;
+        }
+
+        .textBox{
+            text-align: left;
+            margin-left: 150px;
+            margin-right: auto;
+            width: 60%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 17px;
+            padding: 50px;
+        }
+
+        .imageBox{
+            background-color: olivedrab;
+            margin-left: auto;
+            margin-right: auto;
+            width: 80%;
+            padding: 5px 5px;
+            outline: solid;
+            outline-color: #111111;
+        }
+
+        .imageTextBox{
+            text-align: left;
+            margin-left: 10%;
+            margin-right: auto;
+            width: 80%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
+            padding: 10px;
+        }
+
+        .titleBox{
+            text-align: left    ;
+            margin-left: 220px;
+            margin-right: auto;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 25px;
+            padding: 10px;
+        }
+        .title {
+            font-size: 20px;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .sidenav {
+            height: 100%; /* Full-height: remove this if you want "auto" height */
+            width: 160px; /* Set the width of the sidebar */
+            position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+            z-index: revert; /* Stay on top */
+            top: 160px; /* Stay at the top */
+            left: 9px;
+            outline: solid;
+            outline-color: #111111;
+            background-color: olivedrab; /* Black */
+            overflow-x: hidden; /* Disable horizontal scroll */
+            padding-top: 20px;
+        }
+
+        /* The navigation menu links */
+        .sidenav a {
+            padding: 6px 8px 6px 16px;
+            text-decoration: none;
+            font-size: 12px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: black;
+            display: block;
+            text-align: center;
+            position: absolute;
+        }
+
+        /* When you mouse over the navigation links, change their color */
+        .sidenav a:hover {
+            color: #f1f1f1;
+        }
+
+
+        /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+        @media screen and (max-height: 450px) {
+            .sidenav {padding-top: 15px;}
+            .sidenav a {font-size: 18px;}
+        }
+
+        .rightBox {
+            height: 100%; /* Full-height: remove this if you want "auto" height */
+            width: 250px; /* Set the width of the sidebar */
+            position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+            z-index: revert; /* Stay on top */
+            top: 160px; /* Stay at the top */
+            left: 1200px;
+            outline: solid;
+            outline-color: #111111;
+            background-color: burlywood;
+            overflow-x: hidden; /* Disable horizontal scroll */
+            padding-top: 20px;
+        }
+    </style>
+</head>
+<body id="header">
+<div class="topnav">
+    <div id="logo">
+        <img src="NPS-Transparent-Logo.png" alt="NPS" width="100" height="100">
+        <strong height="30"> Olympic National Park </strong>
+        <a href="">About</a>
+        <a class="active" href="/myblog/">Search</a>
+    </div>
+    <div class="sidenav">
+        <div class="title">Key Artifacts:
+            <br>
+            <a href="01-22-06.html">Snow</a>
+            <br>
+            <a href="experiment.html">The Experiment</a>
+            <br>
+            <a href="incident.html">The Incident</a>
+            <br>
+            <a href="whoami.html">Who Am I?</a>
+            <br>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+<div class="titleBox">The Experiment</div>
+<div class="textBox">
+    <div class="titleBox">January 23rd, 2006:</div>
+    <p>Doc Clark believes in therapeutic expression. He’s not a therapist but he wants to be mine. Or a father. Or a brother. But usually he’s just my boss.</p>
+    <p>When it first happened he told me to spend a week in the south tower to germinate it. Feel it. Focus on the ice in my heart and by doing so help it melt. But then I started eating meals with the goats. So he decided blogging in the north tower was probably a smarter plan.
+    </p>
+    <p>Blogging is the new hotness. The heat that can break glaciers.
+    </p>
+    <p>I’m not always so sad. I’m usually a funny duckling! Doc Clark says I’m a silly goose. Henry used to say I was a total quack. I can still be a rambunctious critter, but it’s harder.
+    </p>
+    <br>
+    <br>
+    <div class="titleBox">January 25th, 2006:</div>
+    <br>
+    My parents named me Muir Davids.
+    <br>
+    John Muir wrote The Yosemite.
+    <br>
+    Henry David Thoreau wrote Walden.
+    <br>
+    I've written neither, not yet at least.
+
+    <p>Everest (that’s Doc Clark’s first name) wrote a letter to me two weeks ago asking for me to come back to the park. He likes having me around and he likes when I do my job instead of moping around Port Angeles. But, I like moping.
+    </p>
+    <br>
+    He said: “ok but can you mope in the North Tower.”
+    <br>
+    I said: “errrrrrghhhhh.”
+    <br>
+    He said: “I’ll let you bring a computer.”
+    <br>
+    I said: “ehhhhhhhhhh.”
+    <br>
+    He said: “I’ll let you write a blog.”
+    <br>
+    I said: “hmmmmmmm.”
+    <br>
+    He said: “I’ll let you drink on the weekends.”
+    <br>
+    I said: “deal.”
+    <br>
+    <br>
+    <div class="titleBox">We Killed Me</div>
+    <span id="blink">Henry</span> died alone while I sat in the south tower. I passed with him. Doc Clark sent me to the North Tower for revival.
+
+
+</div>
+</body>
+</html>

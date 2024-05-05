@@ -1,0 +1,204 @@
+<html lang="en" dir="ltr">
+<body>
+<html>
+<script type="text/javascript">
+    var blink_speed = 500; // every 1000 == 1 second, adjust to suit
+    var t = setInterval(function () {
+        var ele = document.getElementById('blink');
+        ele.style.visibility = (ele.style.visibility == 'hidden' ? '' : 'hidden');
+    }, blink_speed);
+    var a = setInterval(function () {
+        var ele = document.getElementById('blink2');
+        ele.style.visibility = (ele.style.visibility == 'hidden' ? '' : 'hidden');
+    }, blink_speed);
+</script>
+<head>
+    <style>
+        body{
+            background-color: moccasin;
+        }
+        strong{
+            font-size: 55px;
+            text-align: center;
+            color: white
+        }
+        .topnav {
+            background-color: black;
+            overflow: hidden;
+            padding: 14px 16px;
+            outline: solid;
+            outline-color: #111111;
+        }
+
+        /* Style the links inside the navigation bar */
+        .topnav a {
+            float: right;
+            color: khaki;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 17px;
+        }
+
+        /* Change the color of links on hover */
+        .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        /* Add a color to the active/current link */
+        .topnav a.active {
+            background-color: #aa0000;
+            color: white;
+        }
+
+        .textBox{
+            text-align: left;
+            margin-left: 150px;
+            margin-right: auto;
+            width: 60%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 17px;
+            padding: 50px;
+        }
+
+        .imageBox{
+            background-color: olivedrab;
+            margin-left: auto;
+            margin-right: auto;
+            width: 60%;
+            padding: 5px 5px;
+            outline: solid;
+            outline-color: #111111;
+        }
+
+        .imageTextBox{
+            text-align: left;
+            margin-left: 25%;
+            margin-right: auto;
+            width: 50%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
+            padding: 10px;
+        }
+
+        .titleBox{
+            text-align: left    ;
+            margin-left: 220px;
+            margin-right: auto;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 25px;
+            padding: 10px;
+        }
+        .title {
+            font-size: 20px;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .sidenav {
+            height: 100%; /* Full-height: remove this if you want "auto" height */
+            width: 160px; /* Set the width of the sidebar */
+            position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+            z-index: revert; /* Stay on top */
+            top: 160px; /* Stay at the top */
+            left: 9px;
+            outline: solid;
+            outline-color: #111111;
+            background-color: olivedrab; /* Black */
+            overflow-x: hidden; /* Disable horizontal scroll */
+            padding-top: 20px;
+        }
+
+        /* The navigation menu links */
+        .sidenav a {
+            padding: 6px 8px 6px 16px;
+            text-decoration: none;
+            font-size: 12px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: black;
+            display: block;
+            text-align: center;
+            position: absolute;
+        }
+
+        /* When you mouse over the navigation links, change their color */
+        .sidenav a:hover {
+            color: #f1f1f1;
+        }
+
+
+        /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+        @media screen and (max-height: 450px) {
+            .sidenav {padding-top: 15px;}
+            .sidenav a {font-size: 18px;}
+        }
+
+        .rightBox {
+            height: 100%; /* Full-height: remove this if you want "auto" height */
+            width: 250px; /* Set the width of the sidebar */
+            position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+            z-index: revert; /* Stay on top */
+            top: 160px; /* Stay at the top */
+            left: 1200px;
+            outline: solid;
+            outline-color: #111111;
+            background-color: burlywood;
+            overflow-x: hidden; /* Disable horizontal scroll */
+            padding-top: 20px;
+        }
+    </style>
+</head>
+<body id="header">
+<div class="topnav">
+    <div id="logo">
+        <img src="NPS-Transparent-Logo.png" alt="NPS" width="100" height="100">
+        <strong height="30"> Olympic National Park </strong>
+        <a href="">About</a>
+        <a class="active" href="/myblog/">Search</a>
+    </div>
+    <div class="sidenav">
+        <div class="title">Key Artifacts:
+            <br>
+            <a href="01-22-06.html">Snow</a>
+            <br>
+            <a href="experiment.html">The Experiment</a>
+            <br>
+            <a href="incident.html">The Incident</a>
+            <br>
+            <a href="whoami.html">Who Am I?</a>
+            <br>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+<div class="titleBox"><img src="HallofMosses.png"></div>
+<div class="textBox">
+    <p>Clubmoss, Dicranum, Sphagnum, Liverwort, Hylocomniums, Rhizominiums, Clamaciums, Plagiothecium, Fontinalises. Sometimes they overflow so heavily that they feel like they are the trees themselves. In many ways they are, as many of the mosses have a symbiotic relationship with the trees, providing moisture and nitrogen in exchange for a place to call home. Exchanging <span id="blink">life</span> for <span id="blink2">life</span>, nurture for nurture, nature growing with nature in a marriage of green and brown.
+    </p>
+    <p>It feels cold and wet in the winters, but hydrating. Like sucking on a sponge. It feels soft and natural and I press my hands against the walls and watch it make an imprint. My imprint. A green mirror of my hand. A wave from another side of me.
+    </p>
+    <p>But the imprints bounce back over time. I know, I’ve checked. Until recently.
+    </p>
+    <br>
+    <br>
+    <p>The meteor crashed in the Hall of Moss. The moss began to burn, flex, and form. They created a million hand prints. All over, every inch of the moss impressioned. And all my perfect reflection. Sometimes the rabbits slept in the palms of the moss, sometimes the goats ate from them. I couldn’t believe it at first, the way I could hold it. It hugged me, it held me closer. I had left a real impression. I was there, the forest remembered me when I never did.
+    </p>
+    <p>Doc Clark says the meteor caused a fight or flight response from the moss. As a result, their cell structures communicated to each other to revert to their last impressioned form. He says it's merely coincidence that it happens to be my hand. I bet he thinks Mary just happened to be pregnant too. I’m not saying I’m Jesus, oh no no.
+    </p>
+    <br>
+    <br>
+    We don't even look alike.
+</div>
+<div class="rightBox">
+    <div class="imageBox">
+        <img src="silhoutte.jpeg" width="150px" height="100px">
+    </div>
+    <div class="imageTextBox">
+        I don't want to look for pictures right now
+    </div>
+</div>
+</body>
+</html>
