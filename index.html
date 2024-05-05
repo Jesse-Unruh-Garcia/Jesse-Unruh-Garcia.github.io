@@ -1,16 +1,95 @@
 <html lang="en" dir="ltr">
 <body>
 <html>
+<script type="text/javascript">
+    var blink_speed = 500; // every 1000 == 1 second, adjust to suit
+    var t = setInterval(function () {
+        var ele = document.getElementById('blink');
+        ele.style.visibility = (ele.style.visibility == 'hidden' ? '' : 'hidden');
+    }, blink_speed);
+
+    function myFunction() {
+        var a = document.getElementById("search").value;
+
+        if (a == "henry") {
+            document.getElementById("answer").innerText = "Correct!";
+            location.href = "henry-2.html";
+        } else if (a == "tower") {
+            document.getElementById("answer").innerText = "Correct!";
+            location.href = "tower.html";
+        } else if (a == "moss") {
+            document.getElementById("answer").innerText = "Correct!";
+            location.href = "moss.html";
+        } else if (a == "stalker") {
+            document.getElementById("answer").innerText = "Correct!";
+            location.href = "stalker.html";
+        } else if (a == "died") {
+            document.getElementById("answer").innerText = "Correct!";
+            location.href = "died.html";
+        } else if (a == "hares") {
+            document.getElementById("answer").innerText = "Correct!";
+            location.href = "hares.html";
+        } else if (a == "goats") {
+            document.getElementById("answer").innerText = "Correct!";
+            location.href = "goat.html";
+        } else if (a == "evolve") {
+            document.getElementById("answer").innerText = "Correct!";
+            location.href = "evolve.html";
+        } else if (a == "life") {
+            document.getElementById("answer").innerText = "Correct!";
+            location.href = "life.html";
+        } else if (a == "wish") {
+            document.getElementById("answer").innerText = "Correct!";
+            location.href = "wish.html";
+        } else if (a == "heart") {
+            document.getElementById("answer").innerText = "Correct!";
+            location.href = "heart.html";
+        } else if (a == "tutorial") {
+            document.getElementById("answer").innerText = "Correct!";
+            location.href = "jason-bennett.jpeg";
+        } else if (a == "brad") {
+            document.getElementById("answer").innerText = "Correct!";
+            location.href = "yooooooo.jpg";
+        } else {
+            document.getElementById("answer").innerHTML = "You seem lost. Look again.";
+        }
+    }
+</script>
 <head>
     <style>
-        body{
+        .left-container {
+            position: relative;
+            float: left;
+            text-align: center;
+            color: white;
+            padding: 5px 5px;
+        }
+
+        .right-container {
+            position: relative;
+            float: left;
+            text-align: center;
+            color: white;
+            padding: 5px 5px;
+        }
+
+        .centered {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        body {
             background-color: moccasin;
         }
-        strong{
+
+        strong {
             font-size: 55px;
             text-align: center;
             color: white
         }
+
         .topnav {
             background-color: black;
             overflow: hidden;
@@ -42,7 +121,7 @@
             color: white;
         }
 
-        .textBox{
+        .textBox {
             text-align: left;
             margin-left: 150px;
             margin-right: auto;
@@ -52,7 +131,7 @@
             padding: 50px;
         }
 
-        .imageBox{
+        .imageBox {
             background-color: olivedrab;
             margin-left: auto;
             margin-right: auto;
@@ -62,7 +141,7 @@
             outline-color: #111111;
         }
 
-        .imageTextBox{
+        .imageTextBox {
             text-align: left;
             margin-left: 10%;
             margin-right: auto;
@@ -72,14 +151,15 @@
             padding: 10px;
         }
 
-        .titleBox{
-            text-align: left    ;
+        .titleBox {
+            text-align: left;
             margin-left: 220px;
             margin-right: auto;
             font-family: Arial, Helvetica, sans-serif;
             font-size: 25px;
             padding: 10px;
         }
+
         .title {
             font-size: 20px;
             text-align: center;
@@ -120,8 +200,13 @@
 
         /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
         @media screen and (max-height: 450px) {
-            .sidenav {padding-top: 15px;}
-            .sidenav a {font-size: 18px;}
+            .sidenav {
+                padding-top: 15px;
+            }
+
+            .sidenav a {
+                font-size: 18px;
+            }
         }
 
         .rightBox {
@@ -144,112 +229,53 @@
     <div id="logo">
         <img src="NPS-Transparent-Logo.png" alt="NPS" width="100" height="100">
         <strong height="30"> Olympic National Park </strong>
-        <a href="about.html">About</a>
-        <a class="active" href="01-22-06.html.html">Intro</a>
+        <a href="whoami.html">About</a>
+        <a class="active" href="/myblog/">Search</a>
     </div>
     <div class="sidenav">
-        <div class="title">General:
+        <div class="title">Key Artifacts:
             <br>
-            <a href="t1.html">North Tower</a>
+            <a href="01-22-06.html">Snow</a>
             <br>
-            <a href="t2.html">South Tower</a>
+            <a href="experiment.html">The Experiment</a>
             <br>
-        </div>
-        <div class="title">Flora:
+            <a href="incident.html">The Incident</a>
             <br>
-            <a href="hallofmoss.html">Hall of Moss</a>
-            <br>
-        </div>
-
-        <div class="title">Fauna:
-            <br>
-            <a href="snowshoehare.html">Snowshow Hare</a>
-            <br>
-            <a href="mgoat.html">Mountain Goat</a>
-            <br>
-        </div>
-        <div class="title">Entries:
-            <br>
-            <a href="01-22-06.html">January 22rd, 2006</a>
-            <br>
-            <a href="01-23-06.html">January 23rd, 2006</a>
-            <br>
-            <a href="01-24-06.html">January 24th, 2006</a>
-            <br>
-            <a href="01-25-06.html">January 25th, 2006</a>
-            <br>
-            <a href="01-27-06.html">January 27th, 2006</a>
-            <br>
-            <a href="01-28-06.html">January 28th, 2006</a>
-            <br>
-            <a href="01-29-06.html">January 29th, 2006</a>
-            <br>
-            <a href="01-30-06p1.html">January 30th, 2006(1)</a>
-            <br>
-            <a href="01-30-06p2.html">January 30th, 2006(2)</a>
-            <br>
-            <a href="01-30-06p3.html">January 30th, 2006(3)</a>
-            <br>
-            <a href="01-31-06.html">January 31st, 2006</a>
-            <br>
-            <a href="02-01-06.html">February 1st, 2006</a>
-            <br>
-            <a href="02-02-06.html">February 2nd, 2006</a>
         </div>
     </div>
 </div>
 </body>
 </html>
-<div class="titleBox">January 30th, 2006, 4:25:11 PM: WTF</div>
+<div class="titleBox">Hello World!</div>
 <div class="textBox">
-    <p>Forgive me if I miss a letter or two. Hands shaking bad. Very cold and very weird nigt. Craziest night of my fing life. Even more wicked than when I broke my leg in fifth grad or when I graduated or when I heard Henry died.
-    </p>
+    I write this now from the outside looking in. What started as an experiment, an expression, a form of therapy
+    designed to recreate me, was usurped by something greater than it all. When I heard the news about Henry for the
+    first time, I thought that was the strangest life could be. How very unclear it seems to me now, knowing what I know
+    about death and the severity of it. But also of creating, and its suddenness.
+
     <p>
-        My heart is pounding. I had to walk three hour to the site of the “wildfire.” The first thing I noticed was the glow, not the typical grayish-orange you expect from a wildfire, but a dewey purple. Exactly like these blacklights they would have at a bar back in Uni. Just filtering through the air, like the branches made it react and catalyzed and get brighter and brighter and brighter. Big purple glow. Like Barney(???). What am I even saying?
-    </p>
-    <p>But oh god, then I noticed the smell. It wasn’t burning, no not like that at all. Burning pine is this soft violent smell, suffocating and squishy and sharp. But, I could smell a ton of sulfur. Not like rotten eggs, not gross, but chemical, this pure sulfur smell that you only get in some high level orgo labs. Usually that type of smell is absolutely unbreathable. The type of stuff you’d expect to smell in hell. Hadean Age shit. But it was mixed with pine needles and fresh cut grass and that baby powder, clean cat scent. It would hit me in waves. Horrible, then uncanny, then comforting. Over and over.
-    </p>
-    <p>5 AM, at the crash site. Rough- rough, rough, rough. Sure enough the fire was contained by the snow, but it still did a beating on the trees. No need to call the wildfire squad, but not great either. Lucky? Fallen over branches, massive chunks ripped out of some ancient, maybe millenia old pines. And that’s where the purple was coming from. This intense, bright, bright violet glow coming from wherever the meteor or debris or whatever it was hit the trees. Bizarre, like something out of a hallucination. Alien, real fucking alien, like nothing I even thought was possible.
-    </p>
-    <p>But that wasn’t the weirdest part. No, not at all. The impact points, where the meteor hit the trees, were pulsating. Like the trees were breathing. In, out, in, out. The trees were regrowing fast enough for me to tell, expanding new branches that usually took summers and springs to make. But the branches were covered in azaleas and irises and orchids. Not endemic to here whatsoever. Like it was collecting new seeds and trying new combinations of plant life on the fly. Scribbled a drawing of a sample I plucked off a tree. It kept growing in my hand, even when ripped off the tree. Never seen anything like it.
-    </p>
-    <p>And the hares. The hares! Oh god the hares… They were crowding around, watching. A whole thousand or so of them it must’ve been. So many hares! White, and those beady black eyes watching the trees. They were watching with me, rubbing up against me and climbing onto my shoulders to get a better look. Like a gathering, or a religious event that they had included me in. It was so… calming? But they weren’t the same as the usual hares. At first I thought I was sleep deprived, but, sure enough, they had little flower buds on their backs and little boney nubs on their foreheads. Even the hares were changing. Even the HARES!
-    </p>
-    <p>I should be freaking out now. I was at the time. Wrote so many observations in my journal but half of them read like scribbles now. Horribly tired. Can’t tell if it was real or I’m just tired or I accidentally huffed some hikers ayahuasca or if the psychotic break finally kicked in.
-    </p>
-    <p>Kind of having a great time, not going to lie???
-    </p>
-    <p>ROTFL!
-    </p>
-    <p>Hands have calmed down. I’m going to try to sleep, when I wake up I’m going to call Dr. Clark and go back to the site to see if any of it was real.
+        I’ve tried my best, I realize now. And all I have left are the artifacts for people to power through. Let’s hope
+        I formatted them to the best of my abilities.
     </p>
 
-    <p><a href="01-30-06p2.html">Previous</a> <a href="01-31-06.html">Next</a></p>
-
-
+    <p>Truth is, I can't help but hide parts of myself on this website. And so, I've chosen to make a game of it. Find a
+        part of me and I'll find a part of you.</p>
+    <p>Certain words, those ones that mean the most to me, will beat like my heart. Flickering, popping in and out of
+        the page.</p>
+    <p>Once you've found them, I ask for you to enter them into my search bar:</p>
+    <br>
+    <input id="search" type="text"/>
+    <p id="answer"></p>
+    <button onclick="myFunction()">Search</button>
 
 
 </div>
 <div class="rightBox">
     <div class="imageBox">
-        <img src="flowers.jpg" width="200px" height="200px">
+        <p style="font-size: 30px; text-align:center;"><span id="blink">Tutorial</span></p>
     </div>
     <div class="imageTextBox">
-        Sketch of branch sample from an impacted tree.
-        <br>
-        Branch appears to have 4(!) different species of flower growing on it.
-        <br>
-        <br>
-        Top left: A violet Iris (<i>Iris psuedopumila</i>), native to Italy.
-        <br>
-        <br>
-        Middle: Didier's Tulip (<i>Tulipa genseriana</i>), a hybrid/cultivated species from Asia.
-        <br>
-        <br>
-        Top right: Lily Stargazer (<i>Lilium orientalis</i>), despite its name, was bred in California during the 1970s.
-        <br>
-        <br>
-        Bottom right: A bud of a Moth Orchid (<i>Phalaenopsis philippinensis</i>), endemic to an island in the Philippines.
+        An Example:<br> Look for these.
     </div>
 </div>
 </body>
