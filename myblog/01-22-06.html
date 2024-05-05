@@ -1,6 +1,13 @@
 <html lang="en" dir="ltr">
 <body>
 <html>
+<script type="text/javascript">
+    var blink_speed = 500; // every 1000 == 1 second, adjust to suit
+    var t = setInterval(function () {
+        var ele = document.getElementById('blink');
+        ele.style.visibility = (ele.style.visibility == 'hidden' ? '' : 'hidden');
+    }, blink_speed);
+</script>
 <head>
     <style>
         body{
@@ -145,7 +152,7 @@
         <img src="NPS-Transparent-Logo.png" alt="NPS" width="100" height="100">
         <strong height="30"> Olympic National Park </strong>
         <a href="about.html">About</a>
-        <a class="active" href="01-22-06.html.html">Intro</a>
+        <a class="active" href="/myblog/">Search</a>
     </div>
     <div class="sidenav">
         <div class="title">Flaura:</div>
@@ -297,7 +304,7 @@
                 <img src="NPS-Transparent-Logo.png" alt="NPS" width="100" height="100">
                 <strong height="30"> Olympic National Park </strong>
                 <a href="">About</a>
-                <a class="active" href="/">Home</a>
+                <a class="active" href="/myblog/">Search</a>
             </div>
             <div class="sidenav">
                 <div class="title">Key Artifacts:
@@ -306,9 +313,9 @@
                     <br>
                     <a href="experiment.html">The Experiment</a>
                     <br>
-                    <a href="">The Incident</a>
+                    <a href="incident.html">The Incident</a>
                     <br>
-                    <a href="">Who Am I?</a>
+                    <a href="whoami.html">Who Am I?</a>
                     <br>
                 </div>
             </div>
@@ -355,9 +362,8 @@
     <p>But, there is no snow on me. There is no snow on me because I am wearing a shirt and underwear and pants and a sweater and a sleeping bag and two to three blankets on top of my skin. There is no snow on me because I am wearing many layers.</p>
     <p>There is no snow on the south tower.</p>
     <p>The snowstorm laid a bed on all of the park. I can clear a path to my binoculars and look at all of Olympic and not see a single tree without any snow on it. I can look at all of Olympic and not see a single mountain goat walking around without a little snow on its little head. I can look at all of Olympic and even the hawks and the eagles and the sprouses have snow on them as they make their winter migrations.</p>
-    <p>But there is no snow on the south tower.</p>
+    <p>But there is no snow on the south <span id="blink">tower</span>.</p>
 
-    <p><a href="01-23-06.html">Next</a></p>
 </div>
 <div class="rightBox">
     <div class="imageBox">
